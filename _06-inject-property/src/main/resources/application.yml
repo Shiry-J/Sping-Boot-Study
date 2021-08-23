@@ -1,0 +1,12 @@
+person:
+  id: 2
+  name: wukongnotnull
+  family: [baba,mama,gege,jiejie]
+  hobbies: [dance,game,sing]
+  map: {level: 3,salary: 3000}
+  pet: {petName: wangcai, petAge: 3}
+
+flag: example
+
+user:
+  email: 649140990@qq.com
