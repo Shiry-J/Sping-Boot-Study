@@ -4,67 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e104148a-eba0-4606-b267-70b05ce66003" name="Changes" comment="2021.8.20">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_05-application-config/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_06-inject-property/src/main/java/com/example/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_06-inject-property/src/main/java/com/example/domain/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_06-inject-property/src/main/java/com/example/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_07-custom-config/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_07-custom-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_07-custom-config/src/main/java/com/example/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_07-custom-config/src/main/java/com/example/config/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_07-custom-config/src/main/java/com/example/domain/MyProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_07-custom-config/src/main/java/com/example/domain/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_07-custom-config/src/main/resources/myBeans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_07-custom-config/src/main/resources/test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_07-custom-config/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/java/com/example/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/java/com/example/config/DBConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/java/com/example/config/DevDBConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/java/com/example/config/ProDBConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/java/com/example/config/TestDBConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/resources/application-prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_09-env-setup/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_09-env-setup/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_09-env-setup/src/main/java/com/example/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_09-env-setup/src/main/java/com/example/domain/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_09-env-setup/src/main/java/com/example/domain/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_09-env-setup/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_09-env-setup/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="e104148a-eba0-4606-b267-70b05ce66003" name="Changes" comment="2021.8.23" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -302,7 +242,7 @@
       <workItem from="1629680812924" duration="2694000" />
       <workItem from="1629685392461" duration="4044000" />
       <workItem from="1629696610712" duration="11530000" />
-      <workItem from="1629722524517" duration="663000" />
+      <workItem from="1629722524517" duration="964000" />
     </task>
     <task id="LOCAL-00001" summary="2021.8.20">
       <created>1629451808810</created>
@@ -318,7 +258,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629453526589</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2021.8.23">
+      <created>1629723406092</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629723406092</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2021.8.23">
+      <created>1629723462823</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629723462823</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +293,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2021.8.20" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021.8.20" />
+    <MESSAGE value="2021.8.23" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021.8.23" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
