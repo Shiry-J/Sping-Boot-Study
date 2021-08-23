@@ -4,7 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e104148a-eba0-4606-b267-70b05ce66003" name="Changes" comment="2021.8.20" />
+    <list default="true" id="e104148a-eba0-4606-b267-70b05ce66003" name="Changes" comment="2021.8.20">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05-application-config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06-inject-property/src/main/java/com/example/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06-inject-property/src/main/java/com/example/domain/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06-inject-property/src/main/java/com/example/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07-custom-config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07-custom-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07-custom-config/src/main/java/com/example/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07-custom-config/src/main/java/com/example/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07-custom-config/src/main/java/com/example/domain/MyProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07-custom-config/src/main/java/com/example/domain/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07-custom-config/src/main/resources/myBeans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07-custom-config/src/main/resources/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07-custom-config/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/java/com/example/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/java/com/example/config/DBConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/java/com/example/config/DevDBConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/java/com/example/config/ProDBConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/java/com/example/config/TestDBConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-profile-config/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_09-env-setup/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_09-env-setup/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_09-env-setup/src/main/java/com/example/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_09-env-setup/src/main/java/com/example/domain/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_09-env-setup/src/main/java/com/example/domain/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_09-env-setup/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_09-env-setup/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +77,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,12 +95,17 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1wyuf6J3T0yRMAa8MhGrLjbxw62" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -51,7 +117,12 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../RoomManagement" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="spring" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\Sping-Boot-Study\_05-application-config\src\main\java\com\example" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -60,39 +131,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (3)">
-    <configuration name="Application" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_03-unit-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.Application" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_03-unit-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_02-start-icon" />
+  <component name="RunManager" selected="Spring Boot.Application (8)">
+    <configuration name="ApplicationTests.contextLoads (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_08-profile-config" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.*" />
@@ -107,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_03-unit-test" />
+    <configuration name="ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_07-custom-config" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.*" />
@@ -116,8 +157,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.Application" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTests.testConfiguration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_07-custom-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ApplicationTests" />
+      <option name="METHOD_NAME" value="testConfiguration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTests.testSpringXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_07-custom-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ApplicationTests" />
+      <option name="METHOD_NAME" value="testSpringXml" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTests.textSpringXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_07-custom-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ApplicationTests" />
+      <option name="METHOD_NAME" value="textSpringXml" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,6 +233,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="_05-application-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="_06-inject-property" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (6)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="_07-custom-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (7)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="_08-profile-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (8)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="_09-env-setup" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="_01-hello-world" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
@@ -153,10 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Application" />
-        <item itemvalue="JUnit.ApplicationTests" />
+        <item itemvalue="JUnit.ApplicationTests.contextLoads (1)" />
+        <item itemvalue="JUnit.ApplicationTests.testSpringXml" />
+        <item itemvalue="JUnit.ApplicationTests.testConfiguration" />
+        <item itemvalue="JUnit.ApplicationTests.textSpringXml" />
         <item itemvalue="JUnit.ApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.Application.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +295,14 @@
       <updated>1629443249598</updated>
       <workItem from="1629443252510" duration="5600000" />
       <workItem from="1629449074164" duration="2181000" />
-      <workItem from="1629451381851" duration="1869000" />
+      <workItem from="1629451381851" duration="2262000" />
+      <workItem from="1629453926962" duration="662000" />
+      <workItem from="1629676844052" duration="944000" />
+      <workItem from="1629677807768" duration="2969000" />
+      <workItem from="1629680812924" duration="2694000" />
+      <workItem from="1629685392461" duration="4044000" />
+      <workItem from="1629696610712" duration="11530000" />
+      <workItem from="1629722524517" duration="663000" />
     </task>
     <task id="LOCAL-00001" summary="2021.8.20">
       <created>1629451808810</created>
@@ -179,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629451808810</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2021.8.20">
+      <created>1629453526589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629453526589</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +337,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2021.8.20" />
     <option name="LAST_COMMIT_MESSAGE" value="2021.8.20" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

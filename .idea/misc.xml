@@ -7,10 +7,15 @@
         <option value="$PROJECT_DIR$/_02-start-icon/pom.xml" />
         <option value="$PROJECT_DIR$/_03-unit-test/pom.xml" />
         <option value="$PROJECT_DIR$/_04-hot-deployment/pom.xml" />
+        <option value="$PROJECT_DIR$/_05-application-config/pom.xml" />
+        <option value="$PROJECT_DIR$/_06-inject-property/pom.xml" />
+        <option value="$PROJECT_DIR$/_07-custom-config/pom.xml" />
+        <option value="$PROJECT_DIR$/_08-profile-config/pom.xml" />
+        <option value="$PROJECT_DIR$/_09-env-setup/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

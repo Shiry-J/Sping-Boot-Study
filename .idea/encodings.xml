@@ -5,5 +5,11 @@
     <file url="file://$PROJECT_DIR$/_02-start-icon/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_03-unit-test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_04-hot-deployment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_05-application-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_06-inject-property/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_07-custom-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_07-custom-config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_08-profile-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_09-env-setup/src/main/java" charset="UTF-8" />
   </component>
 </project>
