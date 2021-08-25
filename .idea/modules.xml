@@ -12,6 +12,12 @@
       <module fileurl="file://$PROJECT_DIR$/_07-custom-config/_07-custom-config.iml" filepath="$PROJECT_DIR$/_07-custom-config/_07-custom-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/_08-profile-config/_08-profile-config.iml" filepath="$PROJECT_DIR$/_08-profile-config/_08-profile-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/_09-env-setup/_09-env-setup.iml" filepath="$PROJECT_DIR$/_09-env-setup/_09-env-setup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_10-integrate-mybatis/_10-integrate-mybatis.iml" filepath="$PROJECT_DIR$/_10-integrate-mybatis/_10-integrate-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_11-integrate-jpa/_11-integrate-jpa.iml" filepath="$PROJECT_DIR$/_11-integrate-jpa/_11-integrate-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_12-integrate-redis/_12-integrate-redis.iml" filepath="$PROJECT_DIR$/_12-integrate-redis/_12-integrate-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_13-default-log/_13-default-log.iml" filepath="$PROJECT_DIR$/_13-default-log/_13-default-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_14-aop-integarate/_14-aop-integarate.iml" filepath="$PROJECT_DIR$/_14-aop-integarate/_14-aop-integarate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_15-transaction-management/_15-transaction-management.iml" filepath="$PROJECT_DIR$/_15-transaction-management/_15-transaction-management.iml" />
     </modules>
   </component>
 </project>

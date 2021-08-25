@@ -11,5 +11,11 @@
     <file url="file://$PROJECT_DIR$/_07-custom-config/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_08-profile-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_09-env-setup/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_10-integrate-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_11-integrate-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_12-integrate-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_13-default-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_14-aop-integarate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_15-transaction-management/src/main/java" charset="UTF-8" />
   </component>
 </project>
