@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /exampleauto
+  port: 8081
+spring:
+  mvc:
+    static-path-pattern: /exa/**
+  web:
+    resources:
+      static-locations: classpath:/example,classpath:/META-INF/resources,classpath:/public

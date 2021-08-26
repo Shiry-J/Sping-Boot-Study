@@ -18,6 +18,8 @@
       <module fileurl="file://$PROJECT_DIR$/_13-default-log/_13-default-log.iml" filepath="$PROJECT_DIR$/_13-default-log/_13-default-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/_14-aop-integarate/_14-aop-integarate.iml" filepath="$PROJECT_DIR$/_14-aop-integarate/_14-aop-integarate.iml" />
       <module fileurl="file://$PROJECT_DIR$/_15-transaction-management/_15-transaction-management.iml" filepath="$PROJECT_DIR$/_15-transaction-management/_15-transaction-management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_16-static-resource/_16-static-resource.iml" filepath="$PROJECT_DIR$/_16-static-resource/_16-static-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_17-integrate-template/_17-integrate-template.iml" filepath="$PROJECT_DIR$/_17-integrate-template/_17-integrate-template.iml" />
     </modules>
   </component>
 </project>

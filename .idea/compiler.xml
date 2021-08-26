@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="_17-integrate-template" />
         <module name="_01-hello-world" />
         <module name="_08-profile-config" />
         <module name="_04-hot-deployment" />
@@ -22,6 +23,7 @@
         <module name="_14-aop-integarate" />
         <module name="_13-default-log" />
         <module name="_05-application-config" />
+        <module name="_16-static-resource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -40,6 +42,8 @@
       <module name="_13-default-log" target="1.8" />
       <module name="_14-aop-integarate" target="1.8" />
       <module name="_15-transaction-management" target="1.8" />
+      <module name="_16-static-resource" target="1.8" />
+      <module name="_17-integrate-template" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -59,6 +63,8 @@
       <module name="_13-default-log" options="-parameters" />
       <module name="_14-aop-integarate" options="-parameters" />
       <module name="_15-transaction-management" options="-parameters" />
+      <module name="_16-static-resource" options="-parameters" />
+      <module name="_17-integrate-template" options="-parameters" />
     </option>
   </component>
 </project>

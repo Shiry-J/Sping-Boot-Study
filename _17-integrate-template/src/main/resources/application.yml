@@ -1,0 +1,9 @@
+spring:
+  thymeleaf:
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+    cache: false
+  messages:
+    basename: i18n.login

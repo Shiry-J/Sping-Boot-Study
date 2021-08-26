@@ -18,6 +18,9 @@
         <option value="$PROJECT_DIR$/_13-default-log/pom.xml" />
         <option value="$PROJECT_DIR$/_14-aop-integarate/pom.xml" />
         <option value="$PROJECT_DIR$/_15-transaction-management/pom.xml" />
+        <option value="$PROJECT_DIR$/_16-static-resourse/pom.xml" />
+        <option value="$PROJECT_DIR$/_16-static-resource/pom.xml" />
+        <option value="$PROJECT_DIR$/_17-integrate-template/pom.xml" />
       </list>
     </option>
   </component>

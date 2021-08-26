@@ -4,99 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e104148a-eba0-4606-b267-70b05ce66003" name="Changes" comment="2021.8.23">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_67_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_67_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_67_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_67_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_67_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_67_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_32_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10-integrate-mybatis/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10-integrate-mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10-integrate-mybatis/src/main/java/com/example/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10-integrate-mybatis/src/main/java/com/example/domain/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10-integrate-mybatis/src/main/java/com/example/domain/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10-integrate-mybatis/src/main/java/com/example/mapper/ArticleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10-integrate-mybatis/src/main/java/com/example/mapper/CommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10-integrate-mybatis/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10-integrate-mybatis/src/main/resources/mapper/ArticleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10-integrate-mybatis/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10-integrate-mybatis/src/test/java/com/example/mapper/ArticleMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10-integrate-mybatis/src/test/java/com/example/mapper/CommentMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11-integrate-jpa/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11-integrate-jpa/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11-integrate-jpa/src/main/java/com/example/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11-integrate-jpa/src/main/java/com/example/domain/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11-integrate-jpa/src/main/java/com/example/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11-integrate-jpa/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11-integrate-jpa/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11-integrate-jpa/src/test/java/com/example/repository/CommentRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12-integrate-redis/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12-integrate-redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12-integrate-redis/src/main/java/com/example/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12-integrate-redis/src/main/java/com/example/domain/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12-integrate-redis/src/main/java/com/example/domain/Family.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12-integrate-redis/src/main/java/com/example/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12-integrate-redis/src/main/java/com/example/repository/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12-integrate-redis/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12-integrate-redis/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12-integrate-redis/src/test/java/com/example/repository/PersonRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13-default-log/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13-default-log/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13-default-log/src/main/java/com/example/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13-default-log/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13-default-log/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14-aop-integarate/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14-aop-integarate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14-aop-integarate/src/main/java/com/example/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14-aop-integarate/src/main/java/com/example/Dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14-aop-integarate/src/main/java/com/example/Dao/UserDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14-aop-integarate/src/main/java/com/example/Service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14-aop-integarate/src/main/java/com/example/Service/UserServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14-aop-integarate/src/main/java/com/example/annotation/InvokeLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14-aop-integarate/src/main/java/com/example/aop/InvokeLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14-aop-integarate/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14-aop-integarate/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14-aop-integarate/src/test/java/com/example/Service/UserServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15-transaction-management/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15-transaction-management/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15-transaction-management/src/main/java/com/example/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15-transaction-management/src/main/java/com/example/Mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15-transaction-management/src/main/java/com/example/Mapper/UserMapperImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15-transaction-management/src/main/java/com/example/Service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15-transaction-management/src/main/java/com/example/Service/UserServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15-transaction-management/src/main/java/com/example/annotation/InvokeLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15-transaction-management/src/main/java/com/example/aop/InvokeLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15-transaction-management/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15-transaction-management/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
+    <list default="true" id="e104148a-eba0-4606-b267-70b05ce66003" name="Changes" comment="2021.8.25">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16-static-resource/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16-static-resource/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/java/com/example/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/META-INF/resources/time-meta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/public/time-public.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/resources/time-resouces.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/static/myjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/static/mystyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/static/time-static.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17-integrate-template/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17-integrate-template/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/java/com/example/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/java/com/example/Controller/indexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/java/com/example/config/MyLocaleResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/i18n/login.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/i18n/login_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/static/login/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/static/login/css/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/static/login/img/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7376aa90-533c-471e-a24c-876247993383/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7376aa90-533c-471e-a24c-876247993383/entities/entities.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7376aa90-533c-471e-a24c-876247993383/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7376aa90-533c-471e-a24c-876247993383/entities/entities.dat.values" afterDir="false" />
@@ -121,6 +63,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -149,6 +92,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -160,16 +104,21 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_15-transaction-management/src/main/java/com/example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_17-integrate-template/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\Sping-Boot-Study\_15-transaction-management\src\main\java\com\example" />
-      <recent name="D:\IdeaProjects\Sping-Boot-Study\_10-integrate-mybatis\src\main\java\com\example" />
+      <recent name="D:\IdeaProjects\Sping-Boot-Study\_17-integrate-template\src\main\resources" />
+      <recent name="D:\IdeaProjects\Sping-Boot-Study\_17-integrate-template\src\main\resources\templates" />
+      <recent name="D:\IdeaProjects\Sping-Boot-Study\_17-integrate-template\src\main\resources\static" />
+      <recent name="D:\IdeaProjects\Sping-Boot-Study\_16-static-resource\src\main\resources\resources" />
+      <recent name="D:\IdeaProjects\Sping-Boot-Study\_16-static-resource\src\main\resources\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\Sping-Boot-Study\_16-static-resource\src\main\resources\static" />
+      <recent name="D:\IdeaProjects\Sping-Boot-Study\_16-static-resource\src\main\resources\templates" />
       <recent name="D:\IdeaProjects\Sping-Boot-Study\_05-application-config\src\main\java\com\example" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -191,7 +140,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.findAll">
+  <component name="RunManager" selected="Spring Boot.Application (17)">
     <configuration name="ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_13-default-log" />
       <extension name="coverage">
@@ -307,6 +256,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (15)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="_16-static-resource" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (16)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="_16-static-resource" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (17)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="_17-integrate-template" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="_02-start-icon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
@@ -408,7 +378,8 @@
       <workItem from="1629723770064" duration="298000" />
       <workItem from="1629763034891" duration="16428000" />
       <workItem from="1629791319865" duration="3506000" />
-      <workItem from="1629849468196" duration="17664000" />
+      <workItem from="1629849468196" duration="18023000" />
+      <workItem from="1629935900126" duration="16676000" />
     </task>
     <task id="LOCAL-00001" summary="2021.8.20">
       <created>1629451808810</created>
@@ -459,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629723862810</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2021.8.25">
+      <created>1629879928991</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629879928991</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,7 +459,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2021.8.20" />
     <MESSAGE value="2021.8.23" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021.8.23" />
+    <MESSAGE value="2021.8.25" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021.8.25" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
