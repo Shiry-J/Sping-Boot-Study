@@ -21,6 +21,9 @@
         <option value="$PROJECT_DIR$/_16-static-resourse/pom.xml" />
         <option value="$PROJECT_DIR$/_16-static-resource/pom.xml" />
         <option value="$PROJECT_DIR$/_17-integrate-template/pom.xml" />
+        <option value="$PROJECT_DIR$/_18-integrate-freemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/_19-integrate-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/_20-mvc-validation/pom.xml" />
       </list>
     </option>
   </component>

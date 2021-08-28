@@ -4,41 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e104148a-eba0-4606-b267-70b05ce66003" name="Changes" comment="2021.8.25">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16-static-resource/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16-static-resource/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/java/com/example/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/META-INF/resources/time-meta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/public/time-public.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/resources/time-resouces.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/static/myjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/static/mystyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/static/time-static.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16-static-resource/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_17-integrate-template/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_17-integrate-template/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/java/com/example/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/java/com/example/Controller/indexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/java/com/example/config/MyLocaleResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/i18n/login.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/i18n/login_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/static/login/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/static/login/css/signin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/static/login/img/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_17-integrate-template/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
+    <list default="true" id="e104148a-eba0-4606-b267-70b05ce66003" name="Changes" comment="2021.8.26">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18-integrate-freemarker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18-integrate-freemarker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18-integrate-freemarker/src/main/java/com/example/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18-integrate-freemarker/src/main/java/com/example/Controller/indexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18-integrate-freemarker/src/main/java/com/example/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18-integrate-freemarker/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18-integrate-freemarker/src/main/resources/templates/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18-integrate-freemarker/src/main/resources/templates/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18-integrate-freemarker/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_19-integrate-mvc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_19-integrate-mvc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_19-integrate-mvc/src/main/java/com/example/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_19-integrate-mvc/src/main/java/com/example/Interceptor/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_19-integrate-mvc/src/main/java/com/example/config/MyMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_19-integrate-mvc/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_19-integrate-mvc/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_19-integrate-mvc/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_19-integrate-mvc/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20-mvc-validation/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20-mvc-validation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20-mvc-validation/src/main/java/com/example/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20-mvc-validation/src/main/java/com/example/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20-mvc-validation/src/main/java/com/example/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20-mvc-validation/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20-mvc-validation/src/main/resources/templates/Register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20-mvc-validation/src/test/java/com/example/ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7376aa90-533c-471e-a24c-876247993383/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7376aa90-533c-471e-a24c-876247993383/entities/entities.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7376aa90-533c-471e-a24c-876247993383/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7376aa90-533c-471e-a24c-876247993383/entities/entities.dat.values" afterDir="false" />
@@ -63,8 +57,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -140,12 +134,12 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (17)">
+  <component name="RunManager" selected="Spring Boot.Application (20)">
     <configuration name="ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_13-default-log" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.*" />
+          <option name="PATTERN" value="com.example.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,8 +271,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (18)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="_18-integrate-freemarker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (19)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="_19-integrate-mvc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="_02-start-icon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (20)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="_20-mvc-validation" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -379,7 +394,9 @@
       <workItem from="1629763034891" duration="16428000" />
       <workItem from="1629791319865" duration="3506000" />
       <workItem from="1629849468196" duration="18023000" />
-      <workItem from="1629935900126" duration="16676000" />
+      <workItem from="1629935900126" duration="17412000" />
+      <workItem from="1630022482315" duration="18038000" />
+      <workItem from="1630153917187" duration="211000" />
     </task>
     <task id="LOCAL-00001" summary="2021.8.20">
       <created>1629451808810</created>
@@ -437,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629879928991</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2021.8.26">
+      <created>1629963519877</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1629963519877</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +484,8 @@
     <MESSAGE value="2021.8.20" />
     <MESSAGE value="2021.8.23" />
     <MESSAGE value="2021.8.25" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021.8.25" />
+    <MESSAGE value="2021.8.26" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021.8.26" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
