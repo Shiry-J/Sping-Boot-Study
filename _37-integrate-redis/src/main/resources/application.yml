@@ -1,0 +1,15 @@
+#redis????????
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/wukong_blog?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&autoReconnect=true
+    username: root
+    password: root123
+
+  # ?? sql ??
+  jpa:
+    show-sql: true

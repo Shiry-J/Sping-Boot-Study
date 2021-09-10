@@ -1,0 +1,15 @@
+# MySQL
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springbootdata?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&autoReconnect=true
+    username: root
+    password: root123
+  thymeleaf:
+    cache: false
+logging:
+  level:
+    com.example.mapper: debug
+
+
+

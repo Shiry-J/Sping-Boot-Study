@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <script src="https://cdn.staticfile.org/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+        $(function (){
+            $("#btn").click(function (){
+                var username = $("#username").val();
+                var password = $("#password").val();
+                console.log(username);
+                console.log(password);
+                $.ajax({
+                    url:"http://localhost:8080/api/v1/login.do",
+                    method:"POST",
+                    data:{
+                        username:username,
+                        password:password
+                    },
+                    success:function (resp) {
+                        console.log(resp);
+                        window.localStorage.setItem("token",resp.data.token);
+                        window.href="http://localhost:63342/main.html";
+                    },
+                    error:function (error){
+                        console.log(error);
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<h1>Login</h1>
+<div>
+    <div>
+        <label for="username">
+            username:<input type="text" name="username" id="username" value="">
+        </label><br>
+        <label for="password">
+            password:<input type="text" name="password" id="password" value="">
+        </label><br>
+        <button id="btn">Login</button>
+    </div>
+</div>
+</body>
+</html>

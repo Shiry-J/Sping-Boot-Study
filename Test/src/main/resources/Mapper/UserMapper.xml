@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.Mapper.UserMapper">
+
+    <!--查询单用户-->
+    <select id="getUserById" resultType="User" parameterType="int">
+        select * from userform where id = #{id}
+    </select>
+
+    <!--查询用户列表-->
+    <select id="getUserList" resultType="User">
+        select  * from userform
+    </select>
+
+    <!--修改单用户信息-->
+    <update id="updateUser" parameterType="User">
+        update userform set username = #{username}, password = #{password}, email = #{email}, address = #{address},
+                            birthday = #{birthday}, modifyBy = #{modifyBy}, modifyTime = #{modifyTime} where id = #{id}
+    </update>
+
+    <!--增添单用户-->
+    <insert id="addUser" parameterType="User">
+        insert into userform(username,password,email,address,birthday,createBy,createTime,modifyBy,modifyTime)
+        values(#{username},#{password},#{email},#{address},#{birthday},#{createBy},#{createTime},#{modifyBy},#{modifyTime})
+    </insert>
+
+    <!--删除单用户信息-->
+    <delete id="delUser" parameterType="int" >
+        delete from userform where id = #{id}
+    </delete>
+
+</mapper>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <script src="https://cdn.staticfile.org/jquery/2.0.0/jquery.min.js">
+        $(function (){
+            $("#btn").click(function (){
+                console.log("enter click event");
+                // send a ajax request
+                $.ajax({
+                    url:"http://localhost:8080/api/v1/users",
+                    method:"Get",
+                    success:function (resp) {
+                        console.log(resp);
+                },
+                    error:function (error){
+                        console.log(error);
+                    }
+                });
+            })
+        });
+    </script>
+</head>
+<body>
+<h1>Index</h1>
+<img src="./Images/213a0b64057044848acf3c0a0cfea978.jpeg" alt="">
+<a href="http://localhost:8080/backend">click me to get resource by link</a>
+<button id="btn">click me to get resource by ajax</button>
+</body>
+</html>

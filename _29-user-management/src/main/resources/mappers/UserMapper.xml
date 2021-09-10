@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.mapper.UserMapper">
+    <select id="getUserByUsername" parameterType="String" resultType="com.example.domain.User">
+        select *
+        from user
+        where  username = #{username}
+    </select>
+    <select id="getUserById" parameterType="Integer" resultType="com.example.domain.User">
+        select *
+        from user
+        where  id = #{id}
+    </select>
+    <insert id="addUser" parameterType="User">
+        insert into user (username, password)
+        values (#{username}, #{password})
+    </insert>
+    <update id="modifyUser" parameterType="User">
+        update user
+        set username = #{username}, password = #{password}
+        where id = #{id}
+    </update>
+    <delete id="deleteUser" parameterType="int">
+        delete from user
+        where id = #{id}
+    </delete>
+    <select id="getUserList" parameterType="com.wukong.bo.UserParams" resultType="User">
+        select *
+        from user
+        <where>
+            <if test="username != null and username != ''">
+                and username like CONCAT('%',#{username},'%')
+            </if>
+        </where>
+    </select>
+</mapper>

@@ -7,24 +7,45 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="_20-mvc-validation" />
+        <module name="_26-package-war" />
+        <module name="_21-global-exception" />
         <module name="_17-integrate-template" />
-        <module name="_19-integrate-mvc" />
         <module name="_01-hello-world" />
         <module name="_08-profile-config" />
-        <module name="_04-hot-deployment" />
+        <module name="_23-file-upload" />
         <module name="_09-env-setup" />
+        <module name="_04-hot-deployment" />
         <module name="_02-start-icon" />
+        <module name="_27-interface-design" />
+        <module name="_07-custom-config" />
+        <module name="_18-integrate-freemarker" />
+        <module name="_29-user-management" />
+        <module name="_06-inject-property" />
+        <module name="Test" />
+        <module name="_31-backend-cors" />
+        <module name="_35-env-setup-cache" />
+        <module name="_20-mvc-validation" />
+        <module name="_19-integrate-mvc" />
+        <module name="_28-response-result" />
+        <module name="_30-integrate-swagger" />
+        <module name="_37-integrate-redis" />
+        <module name="_34-argument-solve" />
+        <module name="_39-authentication-security" />
+        <module name="_38-integrate-ehcache" />
         <module name="_10-integrate-mybatis" />
         <module name="_12-integrate-redis" />
         <module name="_03-unit-test" />
-        <module name="_07-custom-config" />
-        <module name="_18-integrate-freemarker" />
+        <module name="_24-file-download" />
+        <module name="_33-token-authorization" />
         <module name="_11-integrate-jpa" />
         <module name="_15-transaction-management" />
-        <module name="_06-inject-property" />
+        <module name="_32-token-login" />
+        <module name="_36-default-cache" />
         <module name="_14-aop-integarate" />
+        <module name="_22-inte-servlet-filter-listener" />
+        <module name="_25-jar-package" />
         <module name="_13-default-log" />
+        <module name="_40-authorization-security" />
         <module name="_05-application-config" />
         <module name="_16-static-resource" />
       </profile>
@@ -50,10 +71,32 @@
       <module name="_18-integrate-freemarker" target="1.8" />
       <module name="_19-integrate-mvc" target="1.8" />
       <module name="_20-mvc-validation" target="1.8" />
+      <module name="_21-global-exception" target="1.8" />
+      <module name="_22-inte-servlet-filter-listener" target="1.8" />
+      <module name="_23-file-upload" target="1.8" />
+      <module name="_24-file-download" target="1.8" />
+      <module name="_25-jar-package" target="1.8" />
+      <module name="_26-package-war" target="1.8" />
+      <module name="_27-interface-design" target="1.8" />
+      <module name="_28-response-result" target="1.8" />
+      <module name="_29-user-management" target="1.8" />
+      <module name="_30-integrate-swagger" target="1.8" />
+      <module name="_31-backend-cors" target="1.8" />
+      <module name="_32-token-login" target="1.8" />
+      <module name="_33-token-authorization" target="1.8" />
+      <module name="_34-argument-solve" target="1.8" />
+      <module name="_35-env-setup-cache" target="1.8" />
+      <module name="_36-default-cache" target="1.8" />
+      <module name="_37-integrate-redis" target="1.8" />
+      <module name="_38-integrate-ehcache" target="1.8" />
+      <module name="_39-authentication-security" target="1.8" />
+      <module name="_40-authorization-security" target="1.8" />
+      <module name="Test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Test" options="-parameters" />
       <module name="_01-hello-world" options="-parameters" />
       <module name="_02-start-icon" options="-parameters" />
       <module name="_03-unit-test" options="-parameters" />
@@ -74,6 +117,26 @@
       <module name="_18-integrate-freemarker" options="-parameters" />
       <module name="_19-integrate-mvc" options="-parameters" />
       <module name="_20-mvc-validation" options="-parameters" />
+      <module name="_21-global-exception" options="-parameters" />
+      <module name="_22-inte-servlet-filter-listener" options="-parameters" />
+      <module name="_23-file-upload" options="-parameters" />
+      <module name="_24-file-download" options="-parameters" />
+      <module name="_25-jar-package" options="-parameters" />
+      <module name="_26-package-war" options="-parameters" />
+      <module name="_27-interface-design" options="-parameters" />
+      <module name="_28-response-result" options="-parameters" />
+      <module name="_29-user-management" options="-parameters" />
+      <module name="_30-integrate-swagger" options="-parameters" />
+      <module name="_31-backend-cors" options="-parameters" />
+      <module name="_32-token-login" options="-parameters" />
+      <module name="_33-token-authorization" options="-parameters" />
+      <module name="_34-argument-solve" options="-parameters" />
+      <module name="_35-env-setup-cache" options="-parameters" />
+      <module name="_36-default-cache" options="-parameters" />
+      <module name="_37-integrate-redis" options="-parameters" />
+      <module name="_38-integrate-ehcache" options="-parameters" />
+      <module name="_39-authentication-security" options="-parameters" />
+      <module name="_40-authorization-security" options="-parameters" />
     </option>
   </component>
 </project>

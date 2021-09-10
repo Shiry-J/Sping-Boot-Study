@@ -1,33 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/_26-package-war" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/_01-hello-world/pom.xml" />
-        <option value="$PROJECT_DIR$/_02-start-icon/pom.xml" />
+        <option value="$PROJECT_DIR$/Test/pom.xml" />
         <option value="$PROJECT_DIR$/_03-unit-test/pom.xml" />
-        <option value="$PROJECT_DIR$/_04-hot-deployment/pom.xml" />
-        <option value="$PROJECT_DIR$/_05-application-config/pom.xml" />
-        <option value="$PROJECT_DIR$/_06-inject-property/pom.xml" />
-        <option value="$PROJECT_DIR$/_07-custom-config/pom.xml" />
-        <option value="$PROJECT_DIR$/_08-profile-config/pom.xml" />
         <option value="$PROJECT_DIR$/_09-env-setup/pom.xml" />
-        <option value="$PROJECT_DIR$/_10-integrate-mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/_11-integrate-jpa/pom.xml" />
-        <option value="$PROJECT_DIR$/_12-integrate-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/_02-start-icon/pom.xml" />
+        <option value="$PROJECT_DIR$/_01-hello-world/pom.xml" />
         <option value="$PROJECT_DIR$/_13-default-log/pom.xml" />
+        <option value="$PROJECT_DIR$/_23-file-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/_25-jar-package/pom.xml" />
+        <option value="$PROJECT_DIR$/_26-package-war/pom.xml" />
+        <option value="$PROJECT_DIR$/_07-custom-config/pom.xml" />
+        <option value="$PROJECT_DIR$/_11-integrate-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/_19-integrate-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/_24-file-download/pom.xml" />
+        <option value="$PROJECT_DIR$/_04-hot-deployment/pom.xml" />
+        <option value="$PROJECT_DIR$/_08-profile-config/pom.xml" />
         <option value="$PROJECT_DIR$/_14-aop-integarate/pom.xml" />
-        <option value="$PROJECT_DIR$/_15-transaction-management/pom.xml" />
-        <option value="$PROJECT_DIR$/_16-static-resourse/pom.xml" />
+        <option value="$PROJECT_DIR$/_20-mvc-validation/pom.xml" />
+        <option value="$PROJECT_DIR$/_06-inject-property/pom.xml" />
+        <option value="$PROJECT_DIR$/_12-integrate-redis/pom.xml" />
         <option value="$PROJECT_DIR$/_16-static-resource/pom.xml" />
+        <option value="$PROJECT_DIR$/_28-response-result/pom.xml" />
+        <option value="$PROJECT_DIR$/_21-global-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/_27-interface-design/pom.xml" />
+        <option value="$PROJECT_DIR$/_10-integrate-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/_05-application-config/pom.xml" />
         <option value="$PROJECT_DIR$/_17-integrate-template/pom.xml" />
         <option value="$PROJECT_DIR$/_18-integrate-freemarker/pom.xml" />
-        <option value="$PROJECT_DIR$/_19-integrate-mvc/pom.xml" />
-        <option value="$PROJECT_DIR$/_20-mvc-validation/pom.xml" />
+        <option value="$PROJECT_DIR$/_15-transaction-management/pom.xml" />
+        <option value="$PROJECT_DIR$/_22-inte-servlet-filter-listener/pom.xml" />
+        <option value="$PROJECT_DIR$/_29-/pom.xml" />
+        <option value="$PROJECT_DIR$/_29-user-management/pom.xml" />
+        <option value="$PROJECT_DIR$/_30-integrate-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/_31-backend-cors/pom.xml" />
+        <option value="$PROJECT_DIR$/_32-token-login/pom.xml" />
+        <option value="$PROJECT_DIR$/_33-token-authorization/pom.xml" />
+        <option value="$PROJECT_DIR$/_34-argument-solve/pom.xml" />
+        <option value="$PROJECT_DIR$/_35-env-setup-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/_36-default-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/_37-integrate-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/_38-integrate-ehcache/pom.xml" />
+        <option value="$PROJECT_DIR$/_39-authentication-security/pom.xml" />
+        <option value="$PROJECT_DIR$/_40-authorization-security/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

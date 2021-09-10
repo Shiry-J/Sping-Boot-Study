@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html
+		xmlns:th="http://www.thymeleaf.org"
+		xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>新浪新闻平台</title>
+	<link th:href="@{/login/css/mycss.css}" rel="stylesheet"/>
+</head>
+
+<body>
+<h1>欢迎新浪新闻首页</h1>
+
+<div sec:authorize="isAnonymous()">
+	<h2>游客您好，如果想查看<b>会员新闻</b><a th:href="@{/userLogin}">请登录</a></h2>
+</div>
+
+
+<div sec:authorize="isAuthenticated()">
+	<h2>
+		用户: <span sec:authentication="name" style="color: #0e69cb"></span> <br>
+		您的权限：<span sec:authentication="principal.authorities" style="color:#66c256"></span>，您有权观看以下内容
+	</h2>
+	<form th:action="@{/logout}" method="post">
+		<label>
+			<input th:type="submit" th:value="注销"/>
+		</label>
+	</form>
+</div>
+
+<hr>
+
+<div>
+	<h3>游客 - 新闻专栏</h3>
+	<ul>
+		<li><a th:href="@{/detail/visitor/1}">新闻1：悟空非空也带你学习 Java </a></li>
+		<li><a th:href="@{/detail/visitor/2}">新闻2：悟空非空也带你学习 Python </a></li>
+		<li><a th:href="@{/detail/visitor/3}">新闻3：悟空非空也带你学习 C++ </a></li>
+	</ul>
+</div>
+
+<!--<div sec:authorize="hasRole('common')">-->
+<div sec:authorize="hasRole('common') || hasRole('vip')">
+	<h3>普通会员 - 新闻专栏</h3>
+	<ul>
+		<li><a th:href="@{/detail/common/1}">普通会员新闻：1 </a></li>
+		<li><a th:href="@{/detail/common/2}">普通会员新闻：2 </a></li>
+	</ul>
+</div>
+
+<!--<div sec:authorize="hasAuthority('ROLE_vip')">-->
+<div sec:authorize="hasRole('vip')">
+	<h3>VIP会员 - 专享专栏</h3>
+	<ul>
+		<li><a th:href="@{/detail/vip/1}">vip会员新闻：1</a></li>
+		<li><a th:href="@{/detail/vip/2}">vip会员新闻：2</a></li>
+	</ul>
+</div>
+
+</body>
+</html>
+
